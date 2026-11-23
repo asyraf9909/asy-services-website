@@ -8,7 +8,7 @@ export const site = {
   whatsapp: "https://wa.me/601110869174",
   location: "Muar, Johor · Kuala Lumpur, Malaysia",
   founded: 2020,
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://cv.asyrafshahran.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.asyrafshahran.com",
 } as const;
 
 export const nav = [

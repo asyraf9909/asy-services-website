@@ -10,7 +10,7 @@ const logLines = [
   { text: "mobile   Flutter — 2 artifacts signed", tone: "ok" },
   { text: "ai       2 models warm, p95 84ms", tone: "ok" },
   { text: "db       migrations up to date", tone: "ok" },
-  { text: "● live at cv.asyrafshahran.com", tone: "live" },
+  { text: "● live at portfolio.asyrafshahran.com", tone: "live" },
 ] as const;
 
 const ease = [0.16, 1, 0.3, 1] as const;

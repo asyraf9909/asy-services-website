@@ -38,10 +38,10 @@ visitor's own mail client with the message pre-filled, so no enquiry is silently
 
 ## Deployment
 
-Hosted on Vercel; custom domain `cv.asyrafshahran.com` via Cloudflare DNS.
+Hosted on Vercel; custom domain `portfolio.asyrafshahran.com` via Cloudflare DNS.
 
 1. `vercel link` (once), then `vercel --prod`.
-2. Vercel → Project → Settings → Domains → add `cv.asyrafshahran.com`.
+2. Vercel → Project → Settings → Domains → add `portfolio.asyrafshahran.com`.
 3. Cloudflare DNS (proxied OFF / DNS-only for the CNAME):
-   - `CNAME  cv  cname.vercel-dns.com`
-4. Set `NEXT_PUBLIC_SITE_URL=https://cv.asyrafshahran.com` in Vercel env vars.
+   - `CNAME  portfolio  cname.vercel-dns.com`
+4. Set `NEXT_PUBLIC_SITE_URL=https://portfolio.asyrafshahran.com` in Vercel env vars.
